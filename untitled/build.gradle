@@ -33,4 +33,13 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     implementation("org.mariadb.jdbc:mariadb-java-client")
     implementation('com.h2database:h2')
+
+    //스프링 시큐리티
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+
+    //HttpSession
+    implementation (
+            'javax.servlet:javax.servlet-api:3.1.0',
+            'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
+    )
 }
