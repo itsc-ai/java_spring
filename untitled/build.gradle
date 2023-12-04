@@ -48,4 +48,6 @@ dependencies {
 
     // 테스트 시 필요한 User
     implementation("org.springframework.security:spring-security-test")
+
+    implementation("org.mariadb.jdbc:mariadb-java-client")
 }
