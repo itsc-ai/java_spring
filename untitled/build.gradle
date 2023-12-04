@@ -42,4 +42,10 @@ dependencies {
             'javax.servlet:javax.servlet-api:3.1.0',
             'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
     )
+
+    //spring-session-jdbc
+    implementation("org.springframework.session:spring-session-jdbc")
+
+    // 테스트 시 필요한 User
+    implementation("org.springframework.security:spring-security-test")
 }
