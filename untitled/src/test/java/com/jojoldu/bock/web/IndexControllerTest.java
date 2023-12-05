@@ -19,6 +19,6 @@ public class IndexControllerTest {
         String body = this.restTemplate.getForObject("/", String.class);
 
         //then
-        assertThat(body).contains("123123");
+        assertThat(body).contains("Ver.2");
     }
 }
